@@ -5,7 +5,8 @@ var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username == "pragati" && password == "agnes"){
 alert ("YAYYY!!! Come in...");
-window.location = "agnes/index.html"; // Redirecting to other page.
+window.open('https://agnesiscute.github.io/agnes/index.html', 'new window');;
+ // Redirecting to other page.
 return false;
 }
 else{
